@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--
+	Transit by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Health risk monitor</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">RPM</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">Health Admin</a></li>
+						<li><a href="stats.html">Statistics</a></li>
+						
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+						<h2>Health Admin portal</h2>
+						<p>Monitoring the risk pools</p>
+					</header>
+                    <section>
+							<h3>Form</h3>
+							<form action="admin.php" method="post" >
+								<div class="row uniform 50%">
+									<div class="6u 12u$(4)">
+										<input type="text" name="state" id="state" value="" placeholder="Enter State" />
+									</div>
+									<div class="6u$ 12u$(4)">
+										<input type="text" name="state" id="state" value="" placeholder="City" />
+									</div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    
+                                    SELECT ALL THE OPTIONS THAT APPLY TO YOUR LIFESTYLE AND HEALTH
+                                    <h4></h4>
+                                    
+									<ol>
+                                        <div class="6u$ 12u$(4)">
+                                        
+                                        <li>
+                                        <input type="checkbox" id="binge" value="binge" name="low[]">
+										<label for="binge"> Binge Drinking </label>
+                                        </li>
+                                        <li>
+                                        <input type="checkbox" id="smoke" value="smoke" name="low[]">
+										<label for="smoke"> Smoking</label>
+									    </li>
+                                        <li>
+                                        <input type="checkbox" id="physical" value="physical" name="low[]">
+										<label for="physical"> Lack of Physical activity </label>
+                                        </li>
+                                        <li>
+									    <input type="checkbox" id="obesity" value="obesity" name="low[]">
+										<label for="obesity">Obesity</label>
+                                        </li>
+                                        <li>
+                                        <input type="checkbox" id="sleep" value="sleep" name="low[]">
+										<label for="sleep">Sleep less than 7 hours</label>
+                                        </li>
+									    <li>
+                                        <input type="checkbox" id="insurance" value="insurance" name="low[]">
+										<label for="insurance">Lack of health insurance</label>
+                                        </li>
+									   <li>
+                                        <input type="checkbox" id="checkup" value="checkup" name="low[]">
+										<label for="checkup">Routine checkups at health center</label>
+                                        </li>
+									   <li>
+                                        <input type="checkbox" id="dental" value="dental" name="low[]">
+										<label for="dental">Regular visit to dental clinic</label>
+                                        </li>
+									   <li>
+                                        <input type="checkbox" id="bp" value="bp"  name="low[]">
+										<label for="bp">Intake of medicine for controlling blood pressure</label>
+                                        </li>
+									   <li>
+                                        <input type="checkbox" id="chol" value="chol" name="low[]">
+										<label for="chol"></label> Regular cholestrol screening 
+                                       </li>
+                                        
+                                       <br> 
+									   
+                                        </div>
+                                    </ol>
+                                    
+                                        <div class="6u$ 12u$(3)">
+                                            <ol>
+                                        <li>
+                                        <input type="checkbox" id="arthiritis" value="arthiritis" name="low[]">
+										<label for="arthiritis">Arthiritis among adults</label>
+                                        </li>
+                                        
+                                        <li>
+                                        <input type="checkbox" id="mammo" value="mammo" name="low[]">
+										<label for="mammo">Mammographyfor women </label>
+                                        </li>
+									   <li>
+                                        <input type="checkbox" id="pap" value="pap" name="low[]">
+										<label for="pap"> Pap smear test for women
+                                        </label>
+                                        </li>
+									   <li>
+                                        <input type="checkbox" id="colon" value="colon" name="low[]">
+										<label for="colon">Colonoscopy among adults</label>
+                                        </li>
+									   <li>
+                                        <input type="checkbox" id="clinic" value="clinic" name="low[]">
+										<label for="clinic">Clinical services for older adults aged above 65 </label>
+                                        </li>
+                                                         
+                                                
+                                        <li>
+                                            
+                                        <input type="checkbox" id="asthma" value="asthma" name="low[]">
+										<label for="asthma">Asthma among adults </label>
+                                        </li>
+                                        
+                                        <li>
+                                        <input type="checkbox" id="cancer" value="cancer" name="low[]">
+										<label for="cancer">Cancer (including skin cancer)</label>
+                                        </li>
+                                        
+                                        <li>
+                                        <input type="checkbox" id="kidney" value="kidney" name="low[]">
+										<label for="kidney">Chronic Kidney disease </label>
+                                        </li>
+                                        
+                                        <li>
+                                        <input type="checkbox" id="copd" value="copd" name="low[]">
+										<label for="copd">Chronic Obstructive Pulmonary disease among adults</label>
+                                        </li>
+                                        
+                                        <li>
+                                        <input type="checkbox" id="heart" value="heart" name="low[]">
+										<label for="heart">Coronary heart disease</label>
+                                        </li>
+                                        
+                                        <li>
+                                        <input type="checkbox" id="diabetes" value="diabetes" name="low[]">
+										<label for="diabetes">Diabetes among adults </label>
+                                        </li>
+                                        
+                                        <li>
+                                        <input type="checkbox" id="stroke" value="stroke" name="low[]">
+										<label for="stroke">Stroke among adults</label>
+                                        </li>
+                                        
+                                        <li>
+                                        <input type="checkbox" id="mhealh" value="mhealth" name="low[]">
+										<label for="mhealth">Bad Mental health</label>
+                                        </li>
+                                            
+									       
+								    </ol>
+                                </div>
+                                  	<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="submit" class="submit" name="submit" /></li>
+											</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+					
+				</div>
+			</section>
+
+		<!-- Footer -->
+			
+
+	</body>
+</html>
